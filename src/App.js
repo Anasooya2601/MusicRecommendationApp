@@ -4,27 +4,27 @@ import { useState } from "react";
 
 const Music = {
   Jasleen_Royal: [
-    { name: "Eloquent JavaScript", rating: "4/5" },
-    { name: "You Don't Know JS", rating: "3.5/5" }
+    { name: "Love you zindegi", rating: "4/5" },
+    { name: "Nit Nit", rating: "3.5/5" }
   ],
 
   Prateek_Kuhad: [
     {
-      name: "Shiva Trilogy",
+      name: "cold/mess",
       rating: "5/5"
     },
     {
-      name: "Harry Potter and the Sorcerer's Stone",
+      name: "kasoor",
       rating: "4.5/5"
     }
   ],
   LocalTrain: [
     {
-      name: "Never Split the Difference",
+      name: "",
       rating: "3.5/5"
     },
     {
-      name: "Loonshots",
+      name: "",
       rating: "5/5"
     }
   ]
