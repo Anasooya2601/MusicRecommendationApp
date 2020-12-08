@@ -20,25 +20,25 @@ const Music = {
   ],
   LocalTrain: [
     {
-      name: "",
+      name: "choo loo",
       rating: "3.5/5"
     },
     {
-      name: "",
+      name: "aalaas ka pedh",
       rating: "5/5"
     }
   ]
 };
 
 export default function App() {
-  const [selectedGenre, setGenre] = useState("LocalTrain");
+  const [selectedGenre, setGenre] = useState("Jasleen_Royal");
   function genreClickHandler(genre) {
     setGenre(genre);
   }
   return (
     <div className="App">
       <h1> Ana's Music Recommendation </h1>
-      <h3>Music in the soul can be heard by the universe.” – Lao Tzu</h3>
+      <h3>Music in the soul can be heard by the universe. – Lao Tzu</h3>
       <p style={{ fontSize: "smaller" }}>
         {" "}
         Checkout my favorite songs by my favorite artist. Select an artist to
@@ -65,9 +65,9 @@ export default function App() {
       <hr />
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
-          {Music[selectedGenre].map((book) => (
+          {Music[selectedGenre].map((song) => (
             <li
-              key={book.name}
+              key={song.name}
               style={{
                 listStyle: "none",
                 padding: "1rem",
@@ -78,8 +78,8 @@ export default function App() {
               }}
             >
               {" "}
-              <div style={{ fontSize: "larger" }}> {book.name} </div>
-              <div style={{ fontSize: "smaller" }}> {book.rating} </div>
+              <div style={{ fontSize: "larger" }}> {song.name} </div>
+              <div style={{ fontSize: "smaller" }}> {song.rating} </div>
             </li>
           ))}
         </ul>
