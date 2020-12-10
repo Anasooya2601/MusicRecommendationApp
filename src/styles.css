@@ -2,11 +2,12 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background-color: #fce7f3;
+  padding: 100px;
 }
-.h3 {
+h3 {
   font-family: "Nerko One", cursive;
   font-display: center;
   font-size: 25px;
   color: #9d174d;
 }
-
