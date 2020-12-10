@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles.css";
+
 import { useState } from "react";
+// /logo.84287d09.png
 
 const Music = {
   Jasleen_Royal: [
@@ -31,6 +33,8 @@ const Music = {
 };
 
 export default function App() {
+  // Import result is the URL of your image
+
   const [selectedGenre, setGenre] = useState("Jasleen_Royal");
   function genreClickHandler(genre) {
     setGenre(genre);
@@ -42,7 +46,7 @@ export default function App() {
       <p style={{ fontSize: "smaller" }}>
         {" "}
         Checkout my favorite songs by my favorite artist. Select an artist to
-        know more{" "}
+        know more
       </p>
 
       <div>
